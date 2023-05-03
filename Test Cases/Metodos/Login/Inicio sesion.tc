@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8b7231e6-9895-4d4b-ac9f-0f4429ba65f6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>989a12b7-eb63-4422-b26b-2eb95c6d41cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11b792d1-c724-41ab-9217-5641a7517073</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'luis.floresn46@gmail.com'</defaultValue>
+      <description></description>
+      <id>989a12b7-eb63-4422-b26b-2eb95c6d41cc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dontetto46'</defaultValue>
+      <description></description>
+      <id>11b792d1-c724-41ab-9217-5641a7517073</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
 </TestCaseEntity>

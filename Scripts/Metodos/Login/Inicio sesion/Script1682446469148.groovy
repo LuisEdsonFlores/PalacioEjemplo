@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.sendKeys(findTestObject('Web/Login/email'), email)
+
+WebUI.sendKeys(findTestObject('Web/Login/pass'), pass)
+
+WebUI.click(findTestObject('Web/Login/btn_iniciarSesion'))
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>olvidaste tu contraseña</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb18779b-7050-4af0-8b71-8afce1ac834e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08edb566-6bb0-453d-b97f-ce36c8a86ecd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'luis@test.com'</defaultValue>
+      <description></description>
+      <id>08edb566-6bb0-453d-b97f-ce36c8a86ecd</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

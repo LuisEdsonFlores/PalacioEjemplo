@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.acceptAlert()
+WebUI.callTestCase(findTestCase('Metodos/El usuario ingresa al sitio'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Metodos/Login/ir al login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Metodos/Login/Generar cuenta'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

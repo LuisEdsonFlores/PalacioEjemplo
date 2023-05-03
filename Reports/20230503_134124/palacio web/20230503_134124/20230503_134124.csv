@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+palacio web,Chrome 112.0.0.0,,,2023-05-03 13:41:32,2023-05-03 13:41:43,10.855s,ERROR
+,,,,,,,
+Test Cases/Scenarios/1.-El usuario inicia sesion,Chrome 112.0.0.0,,,2023-05-03 13:41:32,2023-05-03 13:41:33,0.765s,FAILED
+acceptAlert(),Chrome 112.0.0.0,,,2023-05-03 13:41:33,2023-05-03 13:41:33,0.418s,FAILED
+,,,,,,,
+Test Cases/Scenarios/test,Chrome 112.0.0.0,,,2023-05-03 13:41:33,2023-05-03 13:41:43,9.807s,ERROR
+"callTestCase(findTestCase(""Metodos/El usuario ingresa al sitio""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-05-03 13:41:34,2023-05-03 13:41:43,9.239s,PASSED
+"callTestCase(findTestCase(""Metodos/Login/ir al login""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-05-03 13:41:43,2023-05-03 13:41:43,0.115s,ERROR
